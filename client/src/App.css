@@ -1,0 +1,157 @@
+/* header navbar */
+#navbarNav {
+  float: left;
+  background: radial-gradient(#fbfffb, transparent);
+  /* flex-grow: inherit; */
+  margin-right: 178px !important;
+}
+.nav-list {
+  margin: 12px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.nav-link{
+  margin: 5px !important;
+}
+.slider-section {
+  position: relative;
+}
+.slider-section img {
+  width: 1708px;
+  height: 896px;
+  object-fit: cover;
+  object-position: top center;
+  position: relative;
+  display: inline-block;
+}
+
+.text-overlay {
+  position: absolute;
+  z-index: 2;
+  /* top: -250px; */
+  left: 0;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.img-overlay {
+  width: 74px !important;
+  height: 37px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.list-overlay {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-item:active{
+    /* border-bottom-color: #000000; */
+    border-bottom: 1px solid #FF9800;
+    /* border-style: dashed double none; */
+
+}
+.nav-item a {
+  border: 1px solid #89c4f4;
+  border-bottom-color: #fff;
+  border-bottom-width: 2px;
+  padding: 6px 15px;
+  box-shadow: 0 2px 0 0 #fff;
+  color:#4b4a4a;
+}
+.nav-item a:hover {
+  color: #FF9800;
+}
+
+/* // imgsection */
+.navbar-brand img{
+  width: 70px;
+  /* height: 50px; */
+}
+/* rightmenu */
+.rightMenu{
+  margin-right:33px;
+}
+.rightMenu ul{
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  /* background-color: #333333; */
+}
+.rightMenu ul li{
+  float: left;
+}
+.rightMenu ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 3px;
+  text-decoration: none;
+}
+.rightMenu ul li img{
+ width: 30px;
+ height: 25px;
+}
+.menuSection{
+  display: block;
+}
+.HeaderComponent{
+  display: block;
+  margin: 0px;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+/* //////////////////**** sidemenu section //////////////////////// */
+  .submenu {
+    margin-top: 40px;
+    margin-left: 200px !important;
+    display: block;
+}
+.sidemenu {
+  display: block;
+}
+.sidemenu ul {
+    list-style: none;
+}
+.sidemenu ul li{
+   font-size:14px
+}
+.sidemenu ul li a{
+   text-decoration: none;
+   color: tomato;
+   
+}
+.sidemenu ul li a:hover{
+   color: green;
+   
+}
+
+.offcanvas.offcanvas-start {
+  top: 87px !important;
+ 
+}
+.offcanvas-backdrop.show {
+  opacity: 0 !important;
+}
+.togglebarmenu{
+
+}
+
+/* HOme page sidebar menu right  */
+.col-sm-8 {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+  float: right;
+}
+.row>* {
+  /* width: 0 !important; */
+  
+}
