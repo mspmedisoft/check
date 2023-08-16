@@ -1,5 +1,5 @@
 import React from "react";
-import MSPlogo from "../../Images/msplogo.png";
+import MSPlogo from "../../images/msplogo.png";
 const Header = () => {
   return (
     <div className="">

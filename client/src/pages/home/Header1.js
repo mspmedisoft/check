@@ -1,7 +1,8 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav';
-import MSPlogo from '../../Images/msplogo.png'
+import MSPlogo from '../../images/msplogo.png'
 import "./Home.css";
+import Side from './Side';
 
 function Header1() {
     return (
@@ -61,7 +62,7 @@ function Header1() {
                     </div>
                 </Nav>
             </div>
-            
+            <Side/>
         </div>
     )
 }

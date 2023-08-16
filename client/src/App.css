@@ -151,7 +151,69 @@
   width: 66.66666667%;
   float: right;
 }
-.row>* {
+.row {
   /* width: 0 !important; */
   
+}
+
+
+/* //////////////////////%%%%% Login page/////////////////////// */
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.img-fluid{
+  height: 100%;
+  width: 100%;
+}
+.loginSection{
+ display: block;
+ 
+}
+.innerlogin{
+  display: block;
+  background-color: #fff;
+  /* border: 1px solid red; */
+ align-items: center;
+ justify-content: center;
+ 
+
+ 
+}
+.row {
+  
+  justify-content: center;
+}
+.mb-4 {
+  margin-bottom: 0.5rem!important;
+}
+.iconfa {
+  display: flex;
+  position: absolute;
+  width: 30px;
+  height: 46px;
+  border: 1px solid red;
+}
+.divicon span{
+  display: flex;
+}
+.Heading {
+  margin: 26px;
+  margin-left: 62px;
+  
+}
+.loginbutton {
+  display: flex;
+ 
+}
+.googleLogin {
+  margin-left: 224px;
+  padding: 5px;
+}
+.buttomlogin{
+ 
 }
